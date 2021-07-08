@@ -1,0 +1,9 @@
+/*To Show Current year in content  use [current-year] shortcode */
+function show_current_year( $atts ){
+  return date('Y');
+}
+add_shortcode( 'current-year', 'show_current_year' );
+
+/*
+Add this code to functions.php
+*/
